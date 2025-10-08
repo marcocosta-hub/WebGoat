@@ -1,6 +1,6 @@
 {
   "settingsInheritedFrom": "marcocosta-hub/whitesource-config@main",
   "excludes": [
-    "**/*.java"
+    "**/*.jar"
   ]
 }
