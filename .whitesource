@@ -1,6 +1,5 @@
 {
   "settingsInheritedFrom": "marcocosta-hub/whitesource-config@main",
-
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "neutral",
     "displayMode": "diff",
