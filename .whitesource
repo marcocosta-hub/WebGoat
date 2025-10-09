@@ -1,13 +1,8 @@
 {
   "settingsInheritedFrom": "marcocosta-hub/whitesource-config@main",
-
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "neutral",
     "displayMode": "diff",
     "useMendCheckNames": true
-  },
-
-  "excludes": [
-    "**/*.java"
-  ]
+  }
 }
