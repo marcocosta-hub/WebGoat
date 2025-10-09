@@ -7,7 +7,4 @@
     "useMendCheckNames": true
   },
 
-  "excludes": [
-    "**/*.java"
-  ]
-}
+
