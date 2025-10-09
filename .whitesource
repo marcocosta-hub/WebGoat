@@ -1,8 +1,35 @@
 {
   "settingsInheritedFrom": "marcocosta-hub/whitesource-config@main",
+
+  "scanSettings": {
+    "configMode": "AUTO",
+    "enableLicenseViolations": true,
+    "baseBranches": []
+  },
+
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "neutral",
     "displayMode": "diff",
     "useMendCheckNames": true
+  },
+
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    }
+  },
+
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPR": false,
+      "addRepositoryCoordinate": false,
+      "addDockerfilePath": false,
+      "addMendIdentifier": false
+    }
   }
 }
